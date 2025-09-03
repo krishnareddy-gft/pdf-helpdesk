@@ -14,8 +14,8 @@ export default function ToolLayout({ children }: ToolLayoutProps) {
   return (
     <div className="min-h-screen">
       {/* Enhanced Header */}
-      <header className="border-b border-border/30 backdrop-blur-xl bg-background/80 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
+      <header className="border-b border-border/70 backdrop-blur-xl bg-card/90 sticky top-0 z-50 shadow-lg">
+        <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <Link href="/">

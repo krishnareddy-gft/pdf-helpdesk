@@ -35,9 +35,9 @@ const ToolCard: React.FC<ToolCardProps> = ({
 
   const cardContent = (
     <Card className={cn(
-      "glass-card h-full group border-2 border-border/40 bg-card/80 backdrop-blur-xl shadow-xl",
+      "glass-card h-full group border-2 border-border/70 bg-card backdrop-blur-xl shadow-2xl",
       enabled 
-        ? "cursor-pointer hover:border-primary/50 hover:shadow-2xl" 
+        ? "cursor-pointer hover:border-primary/70 hover:shadow-3xl hover:bg-card" 
         : "opacity-50 cursor-not-allowed",
       className
     )}>

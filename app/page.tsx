@@ -88,11 +88,11 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Enhanced Header */}
-      <header className="border-b border-border/30 backdrop-blur-xl bg-background/80 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-6">
+      <header className="border-b border-border/70 backdrop-blur-xl bg-card/90 sticky top-0 z-50 shadow-lg">
+        <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center space-x-3 group hover:scale-105 transition-transform duration-300">
-              <div className="p-2 rounded-lg bg-gradient-to-br from-primary/20 to-primary/10 border border-primary/20 group-hover:border-primary/40 transition-colors duration-300">
+            <Link href="/" className="flex items-center space-x-3 group hover:scale-102 transition-transform duration-300">
+              <div className="p-2 rounded-lg bg-gradient-to-br from-primary/20 to-primary/10 border border-primary/20 group-hover:border-primary/30 transition-colors duration-300">
                 <FileText className="h-6 w-6 text-primary" />
               </div>
               <div>
