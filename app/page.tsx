@@ -140,7 +140,7 @@ export default function HomePage() {
               <p className="text-sm text-muted-foreground">
                 Developed by{' '}
                 <span className="text-base font-semibold bg-rainbow bg-clip-text text-transparent">
-                  Lokanex
+                  Lokanex.com
                 </span>
               </p>
             </div>
@@ -285,7 +285,7 @@ export default function HomePage() {
               <p className="text-sm text-muted-foreground">
                 Developed by{' '}
                 <span className="font-semibold bg-rainbow bg-clip-text text-transparent">
-                  Lokanex
+                  Lokanex.com
                 </span>
               </p>
             </div>

@@ -25,7 +25,7 @@ export default function AboutPage() {
                   <Users className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold gradient-text">About Lokanex</h1>
+                  <h1 className="text-xl font-bold gradient-text">About Lokanex.com</h1>
                   <p className="text-xs text-muted-foreground">Our Story</p>
                 </div>
               </div>
@@ -50,13 +50,13 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
             >
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-primary/10 border border-primary/20 mb-8">
-                <span className="text-sm font-medium text-primary">🚀 About Lokanex</span>
+                <span className="text-sm font-medium text-primary">🚀 About Lokanex.com</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-8 gradient-text leading-tight">
                 Young, Talented & Passionate
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Lokanex is a startup company with young, talented, passionate people. 
+                Lokanex.com is a startup company with young, talented, passionate people. 
                 We build software products with low cost, reliability, and modern technology.
               </p>
             </motion.div>
