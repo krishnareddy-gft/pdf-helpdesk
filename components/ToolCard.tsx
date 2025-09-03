@@ -35,9 +35,9 @@ const ToolCard: React.FC<ToolCardProps> = ({
 
   const cardContent = (
     <Card className={cn(
-      "glass-card h-full group",
+      "glass-card h-full group border-2 border-border/40 bg-card/80 backdrop-blur-xl shadow-xl",
       enabled 
-        ? "cursor-pointer" 
+        ? "cursor-pointer hover:border-primary/50 hover:shadow-2xl" 
         : "opacity-50 cursor-not-allowed",
       className
     )}>
@@ -47,7 +47,7 @@ const ToolCard: React.FC<ToolCardProps> = ({
             <div className="p-2 rounded-lg bg-gradient-to-br from-primary/20 to-primary/10 border border-primary/20 group-hover:border-primary/40 transition-all duration-300">
               <Icon className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <CardTitle className="text-lg font-semibold group-hover:text-primary transition-colors duration-300">{title}</CardTitle>
+            <CardTitle className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors duration-300">{title}</CardTitle>
           </div>
           {premium && (
             <div className="premium-badge text-xs px-2 py-1">
@@ -57,7 +57,7 @@ const ToolCard: React.FC<ToolCardProps> = ({
         </div>
       </CardHeader>
       <CardContent className="pt-0">
-        <CardDescription className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+        <CardDescription className="text-sm text-foreground/80 leading-relaxed group-hover:text-foreground transition-colors duration-300">
           {description}
         </CardDescription>
         {enabled && (

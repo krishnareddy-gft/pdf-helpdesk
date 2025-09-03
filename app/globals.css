@@ -92,17 +92,17 @@
 
 @layer components {
   .glass-card {
-    @apply bg-card/60 backdrop-blur-xl border border-border/30 rounded-2xl;
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 rounded-2xl;
     box-shadow: var(--shadow-elevated), var(--shadow-glow);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .glass-card:hover {
-    @apply border-border/50;
+    @apply border-primary/50 bg-card/90;
     box-shadow: 
-      0 20px 25px -5px rgba(0, 0, 0, 0.1), 
-      0 10px 10px -5px rgba(0, 0, 0, 0.04),
-      0 0 30px rgba(59, 130, 246, 0.2);
+      0 20px 25px -5px rgba(0, 0, 0, 0.2), 
+      0 10px 10px -5px rgba(0, 0, 0, 0.1),
+      0 0 30px rgba(59, 130, 246, 0.3);
     transform: translateY(-2px);
   }
   
