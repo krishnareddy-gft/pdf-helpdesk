@@ -123,7 +123,7 @@ export default function HomePage() {
       </header>
 
       {/* HelpDesk Section - Main Opening Section */}
-      <section className="py-12 bg-gradient-to-b from-transparent to-card/20">
+      <section className="py-12 bg-background/95 backdrop-blur-sm">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -173,7 +173,7 @@ export default function HomePage() {
       </section>
 
       {/* Enhanced Features Section */}
-      <section className="py-16 bg-gradient-to-b from-transparent via-card/10 to-transparent relative overflow-hidden">
+      <section className="py-16 bg-background/90 backdrop-blur-sm relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-1/4 left-1/4 w-48 h-48 bg-primary/5 rounded-full blur-3xl animate-float"></div>
@@ -266,7 +266,7 @@ export default function HomePage() {
       </section>
 
       {/* Enhanced Footer */}
-      <footer className="border-t border-border/50 py-12 bg-gradient-to-t from-card/40 to-card/20">
+      <footer className="border-t border-border/50 py-12 bg-background/95 backdrop-blur-sm">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">

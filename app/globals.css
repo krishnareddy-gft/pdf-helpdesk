@@ -300,4 +300,19 @@
   .mobile-full {
     @apply w-full;
   }
+  
+  /* Ensure dark theme on mobile */
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Force dark backgrounds on mobile */
+  section {
+    @apply bg-background/95;
+  }
+  
+  /* Ensure cards maintain dark theme */
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl;
+  }
 }
